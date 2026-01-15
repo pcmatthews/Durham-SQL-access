@@ -1,0 +1,34 @@
+{
+    "EngieGreen": {
+	"DBname": "EngieGreen",
+	"Table": "LHB",
+	"WT": "Wind_turbine_name",
+	"Date": "Date_time",
+	"WindSp": "Ws_avg",
+	"Pwr": "P_avg"
+    },
+    "Penmanshiel": {
+	"DBname": "Cubico",
+	"Table": "Penmanshiel",
+	"WT": "WT",
+	"Date": "DateTime",
+	"WindSp": "Ws",
+	"Pwr": "P"
+    },	
+    "Kelmarsh": {
+	"DBname": "Cubico",
+	"Table": "Kelmarsh",
+	"WT": "WT",
+	"Date": "DateTime",
+	"WindSp": "Ws",
+	"Pwr": "P"
+    },
+    "OpenEDP": {
+	"DBname": "OpenEDP",
+	"Table": "SCADA",
+	"WT": "Turbine_ID",
+	"Date": "Timestamp",
+	"WindSp": "Amb_WindSpeed_Avg",
+	"Pwr": "Prod_LatestAvg_TotActPwr"
+    }
+}

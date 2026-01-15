@@ -1,0 +1,6 @@
+{
+	"server": "sql_server.ac.uk",
+	"user": "sql_userid",
+	"passwd": "userpasswd"
+}
+
