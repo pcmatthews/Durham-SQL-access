@@ -107,7 +107,7 @@ def get_turbine_list(WF_DB):
     WT_col = DB_cm['WT']
     
     # Open up SQL connection
-    engine = sql.create_engine(f"msql://{sql_cred['user']}:{sql_cred['passwd']}@{sql_cred['server']}/{db_name}")
+    engine = sql.create_engine(f"mysql://{sql_cred['user']}:{sql_cred['passwd']}@{sql_cred['server']}/{db_name}")
 
     # SQL query to get list of turbines (unique values in the WT_col)
     query = f"SELECT UNIQUE({WT_col}) as WT_list FROM {table}"
@@ -197,6 +197,7 @@ plt.figure()
 data_edp.plot.scatter(x='WindSp', y='Pwr')
 plt.title('OpenEDP T01')
 plt.show()
+
 
 
 
