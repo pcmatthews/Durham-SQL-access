@@ -30,5 +30,29 @@
 	"Date": "Timestamp",
 	"WindSp": "Amb_WindSpeed_Avg",
 	"Pwr": "Prod_LatestAvg_TotActPwr"
+    },
+	"CAREtoCompare-A": {
+	"DBname": "CAREtoCompare",
+	"Table": "WFA_scada",
+	"WT": "asset_id",
+	"Date": "time_stamp",
+	"WindSp": "wind_speed_3_avg",
+	"Pwr": "power_29_avg"
+    },
+	"CAREtoCompare-B": {
+	"DBname": "CAREtoCompare",
+	"Table": "WFB_scada",
+	"WT": "asset_id",
+	"Date": "time_stamp",
+	"WindSp": "wind_speed_59_avg",
+	"Pwr": "power_58_avg"
+    },
+	"CAREtoCompare-C": {
+	"DBname": "CAREtoCompare",
+	"Table": "WFC_scada",
+	"WT": "asset_id",
+	"Date": "time_stamp",
+	"WindSp": "wind_speed_235_avg",
+	"Pwr": "power_2_avg"
     }
 }
