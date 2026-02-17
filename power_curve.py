@@ -181,23 +181,37 @@ edp_range = farm_date_range("OpenEDP")
 # Some power curve plots
 
 data_pen = get_power("2017-01-01", "2017-02-01", "T01", "Penmanshiel")
-plt.figure()
+#plt.figure()
 data_pen.plot.scatter(x='WindSp', y='Pwr')
 plt.title('Penmanshiel T01')
-plt.show()
 
 data_eg = get_power("2015-01-01", "2015-02-01", "R80711", "EngieGreen")
-plt.figure()
+#plt.figure()
 data_eg.plot.scatter(x='WindSp', y='Pwr')
 plt.title('EngieGreen R80711')
-plt.show()
 
 data_edp = get_power("2017-01-01", "2017-02-01", "T01", "OpenEDP")
-plt.figure()
+#plt.figure()
 data_edp.plot.scatter(x='WindSp', y='Pwr')
 plt.title('OpenEDP T01')
-plt.show()
 
+data_ctca = get_power("2022-01-01", "2022-02-01", "10", "CAREtoCompare-A")
+#plt.figure()
+data_ctca.plot.scatter(x='WindSp', y='Pwr')
+plt.title('CAREToCompare-A 10')
+
+data_ctcb = get_power("2022-01-01", "2022-02-01", "11", "CAREtoCompare-B")
+#plt.figure()
+data_ctcb.plot.scatter(x='WindSp', y='Pwr')
+plt.title('CAREToCompare-B 11')
+
+data_ctcc = get_power("2022-01-01", "2022-02-01", "12", "CAREtoCompare-C")
+#plt.figure()
+data_ctcc.plot.scatter(x='WindSp', y='Pwr')
+plt.title('CAREToCompare-A 12')
+
+
+plt.show()
 
 
 
