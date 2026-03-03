@@ -1,0 +1,18 @@
+# Python/venv requirements for DU SQL code
+#
+# Requirements to be able to quickly set up venv
+#
+# eg: [path to venv]/bin/pip3 install -r dusql-venv.txt
+#
+# Suggested use:
+# 1. python3 -m venv [path to venv directory]  # set up python virtual environment
+# 2. [path to venv]/bin/pip3 install -r dusql-venv.txt
+# 3. [path to venv]/bin/python3 [python code, eg power_curve.py]
+# 4. Enjoy!
+
+pandas
+numpy
+scikit-learn
+matplotlib
+sqlalchemy
+mysql
